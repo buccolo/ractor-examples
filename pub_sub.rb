@@ -19,4 +19,4 @@ consumers = CPU_COUNT.times.map do |index|
   end
 end
 
-loop {}
+Ractor.recv
